@@ -16,7 +16,7 @@ def pre(kiruvchidata):
     p = m.predict(ir)
     
 
-    return f"{int(p)} 000"
+    return f"{int(p)} $"
 
 
 
