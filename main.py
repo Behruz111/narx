@@ -5,8 +5,9 @@ import pickle
 import numpy as np
 
 
-
 m = pickle.load(open("model.pkl", "rb"))
+st.image('3.jpg')
+
 
 
 def pre(kiruvchidata):
@@ -16,7 +17,7 @@ def pre(kiruvchidata):
     p = m.predict(ir)
     
 
-    return f"{int(p)} $"
+    return f"{int(p)}000"
 
 
 
@@ -42,3 +43,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+st.image('5.jpg')
