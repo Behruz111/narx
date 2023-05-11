@@ -43,5 +43,8 @@ def main():
 
 if __name__ == '__main__':
     main()
+<<<<<<< HEAD
 
 st.image('5.jpg')
+=======
+>>>>>>> 8251883416482af01bae0fcfc918787144b47c37
